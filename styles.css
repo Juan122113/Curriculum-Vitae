@@ -1,4 +1,104 @@
 *{
     font-family: 'Lato', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto-Juan{
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    width: auto;
+    border-radius: 50%;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+    padding: 25px 5px;
+    font-size: 12px;
+}
+
+.nav li {
+    width: 20%;
+  }
+
+.nav a {
+    text-decoration: none;
+}
+
+.p-Perfil-profesional{
+    text-align: justify;
+}
+
+section{
+    padding: 8px 0;
+}
+
+h2{
+    padding-bottom: 5px;
+}
+
+.repartidor{
+    display: flex;
+    padding-bottom: 5px;
+}
+
+#Educación ul {
+    list-style: none;
+    padding: 0;
+}
+
+#Educación{
+    margin: 0 5px;
+}
+
+#Educación li{
+    padding: 3px 0;
+}
+
+.li-JS{
+    display: flex;
+    justify-content: space-between;
+}
+
+.li-JS p{
+    white-space: nowrap
+}
+
+.li-frontend{
+    display: flex;
+    justify-content: space-between;
+}
+
+.li-frontend p {
+    white-space: nowrap;
+}
+
+.li-CSS{
+    display: flex;
+    justify-content: space-between;
+}
+
+.li-HTML{
+    display: flex;
+    justify-content: space-between;
+}
+
+.li-prog{
+    display: flex;
+    justify-content: space-between;
 }
 
