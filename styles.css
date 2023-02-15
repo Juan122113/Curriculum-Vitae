@@ -6,12 +6,17 @@
 
 body{
     background-color: antiquewhite;
+    width: 100%;
+    max-width: 100%;
 }
 
 .title{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    max-width: 100%;
+    
 }
 
 .foto-Juan{
@@ -22,17 +27,26 @@ body{
     border-radius: 50%;
 }
 
+h1{
+    padding: 0 5px;
+    width: auto;
+    max-width: 100%;
+}
+
 .nav{
+    max-width: 100%;
     display: flex;
     justify-content: space-between;
     list-style: none;
     text-align: center;
     padding: 25px 5px;
     font-size: 12px;
+    visibility: hidden;
 }
 
 .nav li {
     width: 20%;
+    margin: 3px;
   }
 
 .nav a {
@@ -44,16 +58,24 @@ body{
 }
 
 section{
-    padding: 8px 0;
+    padding: 8px 5px;
+    max-width: 100%;
+    word-wrap: break-word;
 }
 
 h2{
     padding-bottom: 5px;
 }
 
+p{
+    word-wrap: break-word;
+}
+
 .repartidor{
     display: flex;
     padding-bottom: 5px;
+    justify-content: space-between;
+    max-width: 100%;
 }
 
 #Educación ul {
@@ -61,12 +83,13 @@ h2{
     padding: 0;
 }
 
-#Educación{
-    margin: 0 5px;
-}
 
 #Educación li{
     padding: 3px 0;
+}
+
+#Educación li p{
+    margin-left: 10px;
 }
 
 .li-JS{
@@ -75,7 +98,7 @@ h2{
 }
 
 .li-JS p{
-    white-space: nowrap
+    white-space: nowrap;
 }
 
 .li-frontend{
