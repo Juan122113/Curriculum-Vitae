@@ -56,10 +56,6 @@ h1{
     display: none;
 }
 
-#nav.show {
-    display: block;
-  }
-
 .nav li {
     width: 20%;
     margin: 3px;
@@ -73,10 +69,6 @@ section{
     padding: 8px 5px;
     max-width: 100%;
     word-wrap: break-word;
-}
-
-h2{
-    padding-bottom: 5px;
 }
 
 p{
@@ -145,6 +137,10 @@ p{
 
     .hamburguer{
         visibility: hidden;
+    }
+
+    #nav{
+        display: contents;
     }
 
     .nav{
