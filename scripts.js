@@ -18,6 +18,15 @@ const collection = document.getElementsByClassName("subtitle");
     
     }
  
+function bigImg(x) {
+      x.style.height = "400px";
+      x.style.width = "350px";
+    }
+    
+function normalImg(x) {
+      x.style.height = "auto";
+      x.style.width = "auto";
+    }
 
   
   
