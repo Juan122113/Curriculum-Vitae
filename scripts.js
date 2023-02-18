@@ -19,13 +19,13 @@ const collection = document.getElementsByClassName("subtitle");
     }
  
 function bigImg(x) {
-      x.style.height = "400px";
-      x.style.width = "350px";
+      x.style.height = "500px";
+      x.style.width = "450px";
     }
     
 function normalImg(x) {
-      x.style.height = "auto";
-      x.style.width = "auto";
+      x.style.height = "300px";
+      x.style.width = "250px";
     }
 
   
